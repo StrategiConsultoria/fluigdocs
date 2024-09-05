@@ -13,11 +13,11 @@ theme:
         - content.code.copy
     language: en
     palette:
-        - scheme: default
+        - scheme: slate
           toggle:
               icon: material/toggle-switch-off-outline
               name: Switch to dark mode
-          primary: teal
+          primary: deep orange
           accent: purple
         - scheme: slate
           toggle:
