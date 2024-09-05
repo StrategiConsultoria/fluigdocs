@@ -252,3 +252,30 @@ function transformSringBRLToFloat(valor) {
 		.trim());
 }
 ```
+
+## Preencher Selects:
+```javascript
+function getTemplatesRecibo(id, PastaId) {
+    const folderId = getFolderId(PastaId);
+    const templates = getDocument(folderId)
+    $(id).find('option').remove().end();
+    $(id).append($("<option>", {
+        text: "",
+        value: ""
+    }))
+    $.each(templates, (i, item) => {
+        $(id).append($("<option>", {
+            text: item.description,
+            value: item.url
+        }))
+    })
+}
+```
+
+## Checar valor nulo:
+```javascript
+function isEmpty(valor) {
+  return valor == null || valor == "" || typeof valor === undefined;
+}
+```
+
