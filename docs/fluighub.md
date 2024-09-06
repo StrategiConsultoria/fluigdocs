@@ -1,3 +1,6 @@
+<script type="module" src="/js/checkauth.js"></script>
+
+
 ## Fluighub
 
 # O que é o Fluighub?

@@ -1,3 +1,5 @@
+<script type="module" src="/js/checkauth.js"></script>
+
 ## Buscar dados Form Interno
 Todo formulário interno ( o qual construímos via eclipse) ele sempre irá possuir um dataset que guardar seus registros no fluig.
 Dessa forma, é possível pegar seus dados consultando esse dataset do formulário.
