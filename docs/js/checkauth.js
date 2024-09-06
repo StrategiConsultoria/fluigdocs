@@ -13,8 +13,15 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 
-onAuthStateChanged(auth, (user) => {
-    if (!user) {
-        window.location.href = '/login.html';
-    }
+document.addEventListener('DOMContentLoaded', () => {
+    onAuthStateChanged(auth, (user) => {
+        if (!user) {
+                window.location.href = '/login.html';
+        } else {
+            // If user is logged in and on "inicio" page, redirect to a different page
+            if (window.location.pathname.includes('login')){
+                window.location.href = '/inicio/'
+            }
+        }
+    });
 });
