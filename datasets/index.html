@@ -1,0 +1,1214 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../M%C3%A1scaras/">
+      
+      
+        <link rel="next" href="../fluighub/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.35">
+    
+    
+      
+        <title>Datasets - Fluig Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.35f28582.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#datasets" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Fluig Docs" class="md-header__button md-logo" aria-label="Fluig Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Fluig Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Datasets
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Forms/" class="md-tabs__link">
+        
+  
+    
+  
+  Forms
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Fun%C3%A7%C3%B5esGerais/" class="md-tabs__link">
+        
+  
+    
+  
+  FunçõesGerais
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Introdu%C3%A7%C3%B5es/" class="md-tabs__link">
+        
+  
+    
+  
+  Introduções
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../M%C3%A1scaras/" class="md-tabs__link">
+        
+  
+    
+  
+  Máscaras
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  Datasets
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../fluighub/" class="md-tabs__link">
+        
+  
+    
+  
+  Fluighub
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../inicio/" class="md-tabs__link">
+        
+  
+    
+  
+  Inicio
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../process/" class="md-tabs__link">
+        
+  
+    
+  
+  Process
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../widgets/" class="md-tabs__link">
+        
+  
+    
+  
+  Widgets
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Fluig Docs" class="md-nav__button md-logo" aria-label="Fluig Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Fluig Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Forms/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Forms
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Fun%C3%A7%C3%B5esGerais/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FunçõesGerais
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Introdu%C3%A7%C3%B5es/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduções
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../M%C3%A1scaras/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Máscaras
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Datasets
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Datasets
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#utilizando-datasets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Utilizando datasets
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funcoes-em-datasets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funções em Datasets
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Funções em Datasets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pegar-filhos-de-um-paixfilho" class="md-nav__link">
+    <span class="md-ellipsis">
+      pegar filhos de um PaiXFilho
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alterar-o-valor-de-qualquer-campo-de-qualquer-solicitacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alterar o valor de qualquer campo de qualquer solicitação:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pegar-numero-de-processo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pegar número de processo:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sincronizacao-de-datasets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sincronização de datasets
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sincronização de datasets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#na-criacao-de-datasets-o-fluig-nos-da-4-funcoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Na criação de datasets o fluig nos da 4 funções
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fluighub/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fluighub
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../inicio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inicio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../process/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Process
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../widgets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Widgets
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<script type="module" src="/js/checkauth.js"></script>
+
+<h1 id="datasets">Datasets</h1>
+<h2 id="utilizando-datasets">Utilizando datasets</h2>
+<p>Para utilizar datasets precisamos entender alguns conceitos básicos antes. O consumo de datasets no fluig exige o uso de 3 parametros que são:  </p>
+<p>• <strong>Nome do dataset:</strong> Geralmente você vai chamar pelo nome que é encontrado na aba datasets no painel de controle do Fluig (lembrando que esse valor é uma string, então sempre chamar o nome do dataset entre aspas).</p>
+<p>• <strong>returnFields:</strong> Esse parâmetro se refere aos valores que você deseja que retorne do dataset, nesse campo chamamos uma string com o nome da coluna que desejamos obter.</p>
+<p>• <strong>constraints:</strong> Esse campo serve para filtrar o dataset, para criar uma constraint usamos a função DatasetFactory.createConstraint("colunaDoDataset", inicioDoFiltro, fimDoFiltro, ConstraintType.MUST), ConstraintType pode ter três valores possíveis .MUST (indica que todos os registros do Dataset devem satisfazer a esta condição), .SHOULD (indica que os registros do Dataset podem ou não atender à condição. Esse tipo é mais comum quando se necessita que um mesmo campo tenha valores A ou B) ou .MUST_NOT (indica que nenhum dos registros pode satisfazer a condição).
+ Normalmente criamos as constraints como c1, c2, c3... e juntamos todas em uma variável constraints usando new Array(c1, c2, c3...);</p>
+<p>• <strong>sortingFields:</strong> Esse parâmetro serve para ordenar os valores filtrados e essa ordenação é feita de forma ascendente, caso atribua o valor null no canto desse parâmetro na função em que ele deve ser chamado, o dataset não realizara a ordenação. Costumamos usar como null pois a ordenação afeta no desempenho do processo, mas quando for necessário a ordenação, vale a pena usar esse parâmetro.</p>
+<p>• <strong>return:</strong> ao final criamos a variável dataset, que será onde os valores que queremos serão armazenados, para isso usamos a função DatasetFactory.getDataset("NomeDoDataset", returnFields, constraints, sortingFields).</p>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>var c1 = DatasetFactory.createConstraint(&quot;cardDocumentId&quot;, documentId, documentId, ConstraintType.MUST);
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    var constraints = new Array(c1);
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    var returnFields = new Array(&quot;workflowProcessPK.processInstanceId&quot;)
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    var sortingFields = new Array(&quot;cardDocumentId&quot;);
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    var dataset = DatasetFactory.getDataset(&quot;workflowProcess&quot;, returnFields, constraints, null);
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    return dataset.values;
+</code></pre></div>
+Na variável DATASET está o comando completo que será usado 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>var dataset = DatasetFactory.getDataset(tabela, returnFields(campos retornados), constraints(c1), null(ordenação))
+</code></pre></div>
+Para utilizar o datasetFactory no front é necessário utilizar a seguinte importação
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>&lt;script type=&quot;text/javascript&quot; src=&quot;/webdesk/vcXMLRPC.js&quot;&gt;&lt;/script&gt;
+</code></pre></div></p>
+<h2 id="funcoes-em-datasets">Funções em Datasets</h2>
+<h3 id="pegar-filhos-de-um-paixfilho">pegar filhos de um PaiXFilho</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">getFormChildren</span><span class="p">(</span><span class="nx">datasetId</span><span class="p">,</span><span class="w"> </span><span class="nx">documentId</span><span class="p">,</span><span class="w"> </span><span class="nx">tablename</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">     </span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">c1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DatasetFactory</span><span class="p">.</span><span class="nx">createConstraint</span><span class="p">(</span><span class="s2">&quot;documentid&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">documentId</span><span class="p">,</span><span class="w"> </span><span class="nx">documentId</span><span class="p">,</span><span class="w"> </span><span class="nx">ConstraintType</span><span class="p">.</span><span class="nx">MUST</span><span class="p">);</span><span class="w">     </span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">c2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DatasetFactory</span><span class="p">.</span><span class="nx">createConstraint</span><span class="p">(</span><span class="s2">&quot;tablename&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">tablename</span><span class="p">,</span><span class="w"> </span><span class="nx">tablename</span><span class="p">,</span><span class="w"> </span><span class="nx">ConstraintType</span><span class="p">.</span><span class="nx">MUST</span><span class="p">);</span><span class="w">     </span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">c3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DatasetFactory</span><span class="p">.</span><span class="nx">createConstraint</span><span class="p">(</span><span class="s2">&quot;metadata#active&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;true&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;true&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">ConstraintType</span><span class="p">.</span><span class="nx">MUST</span><span class="p">);</span><span class="w">     </span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">constraints</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nb">Array</span><span class="p">(</span><span class="nx">c1</span><span class="p">,</span><span class="w"> </span><span class="nx">c2</span><span class="p">,</span><span class="w"> </span><span class="nx">c3</span><span class="p">);</span><span class="w">     </span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DatasetFactory</span><span class="p">.</span><span class="nx">getDataset</span><span class="p">(</span><span class="nx">datasetId</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> </span><span class="nx">constraints</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">);</span><span class="w">     </span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="nx">result</span><span class="p">;</span><span class="w"> </span>
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="p">}</span>
+</code></pre></div>
+<h3 id="alterar-o-valor-de-qualquer-campo-de-qualquer-solicitacao">Alterar o valor de qualquer campo de qualquer solicitação:</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">setValue</span><span class="p">(</span><span class="nx">numProcess</span><span class="p">,</span><span class="w"> </span><span class="nx">fieldName</span><span class="p">,</span><span class="w"> </span><span class="nx">fieldValue</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">documentId</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">getDocumentId</span><span class="p">(</span><span class="nx">numProcess</span><span class="p">);</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">            </span><span class="kd">let</span><span class="w"> </span><span class="nx">c4</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DatasetFactory</span><span class="p">.</span><span class="nx">createConstraint</span><span class="p">(</span><span class="s1">&#39;sqlLimit&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;300&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;300&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">ConstraintType</span><span class="p">.</span><span class="nx">MUST</span><span class="p">)</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">c1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DatasetFactory</span><span class="p">.</span><span class="nx">createConstraint</span><span class="p">(</span><span class="s2">&quot;documentid&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">documentId</span><span class="p">,</span><span class="w"> </span><span class="nx">documentId</span><span class="p">,</span><span class="w"> </span><span class="nx">ConstraintType</span><span class="p">.</span><span class="nx">MUST</span><span class="p">);</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="w">            </span><span class="kd">const</span><span class="w"> </span><span class="nx">c2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DatasetFactory</span><span class="p">.</span><span class="nx">createConstraint</span><span class="p">(</span><span class="s2">&quot;fieldName&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">fieldName</span><span class="p">,</span><span class="w"> </span><span class="nx">fieldName</span><span class="p">,</span><span class="w"> </span><span class="nx">ConstraintType</span><span class="p">.</span><span class="nx">MUST</span><span class="p">);</span>
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="w">            </span><span class="kd">const</span><span class="w"> </span><span class="nx">c3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DatasetFactory</span><span class="p">.</span><span class="nx">createConstraint</span><span class="p">(</span><span class="s2">&quot;fieldValue&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">fieldValue</span><span class="p">,</span><span class="w"> </span><span class="nx">fieldValue</span><span class="p">,</span><span class="w"> </span><span class="nx">ConstraintType</span><span class="p">.</span><span class="nx">MUST</span><span class="p">);</span>
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="w">            </span><span class="kd">const</span><span class="w"> </span><span class="nx">constraints</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nb">Array</span><span class="p">(</span><span class="nx">c1</span><span class="p">,</span><span class="w"> </span><span class="nx">c2</span><span class="p">,</span><span class="w"> </span><span class="nx">c3</span><span class="p">,</span><span class="w"> </span><span class="nx">c4</span><span class="p">);</span>
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="w">            </span><span class="kd">const</span><span class="w"> </span><span class="nx">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DatasetFactory</span><span class="p">.</span><span class="nx">getDataset</span><span class="p">(</span><span class="s2">&quot;dsSetCardValue&quot;</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> </span><span class="nx">constraints</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">);</span>
+<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nx">result</span><span class="p">;</span>
+<a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a><span class="p">}</span>
+<a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>
+<a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a><span class="kd">function</span><span class="w"> </span><span class="nx">getDocumentId</span><span class="p">(</span><span class="nx">numProcess</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">  </span>
+<a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">c1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DatasetFactory</span><span class="p">.</span><span class="nx">createConstraint</span><span class="p">(</span><span class="s2">&quot;workflowProcessPK.processInstanceId&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">numProcess</span><span class="p">,</span><span class="w"> </span><span class="nx">numProcess</span><span class="p">,</span><span class="w"> </span><span class="nx">ConstraintType</span><span class="p">.</span><span class="nx">MUST</span><span class="p">);</span><span class="w">  </span>
+<a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a><span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="nx">c4</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DatasetFactory</span><span class="p">.</span><span class="nx">createConstraint</span><span class="p">(</span><span class="s1">&#39;sqlLimit&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;300&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;300&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">ConstraintType</span><span class="p">.</span><span class="nx">MUST</span><span class="p">)</span><span class="w">  </span>
+<a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">constraints</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nb">Array</span><span class="p">(</span><span class="nx">c1</span><span class="p">,</span><span class="w"> </span><span class="nx">c4</span><span class="p">);</span><span class="w">  </span>
+<a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">returnFields</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nb">Array</span><span class="p">(</span><span class="s2">&quot;cardIndexDocumentId&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;cardDocumentId&quot;</span><span class="p">);</span><span class="w">  </span>
+<a id="__codelineno-4-17" name="__codelineno-4-17" href="#__codelineno-4-17"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">dataset</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DatasetFactory</span><span class="p">.</span><span class="nx">getDataset</span><span class="p">(</span><span class="s2">&quot;workflowProcess&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">returnFields</span><span class="p">,</span><span class="w"> </span><span class="nx">constraints</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">);</span><span class="w">  </span>
+<a id="__codelineno-4-18" name="__codelineno-4-18" href="#__codelineno-4-18"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nx">dataset</span><span class="p">.</span><span class="nx">values</span><span class="p">[</span><span class="mf">0</span><span class="p">].</span><span class="nx">cardDocumentId</span><span class="p">;</span><span class="w">  </span>
+<a id="__codelineno-4-19" name="__codelineno-4-19" href="#__codelineno-4-19"></a><span class="w">    </span><span class="p">}</span><span class="w">  </span>
+<a id="__codelineno-4-20" name="__codelineno-4-20" href="#__codelineno-4-20"></a><span class="c1">// setValue(&quot;ID_AQUI&quot;, &#39;CAMPO&#39;, &#39;VALOR&#39;)</span>
+</code></pre></div>
+<h3 id="pegar-numero-de-processo">Pegar número de processo:</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">getNumProcess</span><span class="p">(</span><span class="nx">documentId</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="nx">c1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DatasetFactory</span><span class="p">.</span><span class="nx">createConstraint</span><span class="p">(</span><span class="s2">&quot;cardDocumentId&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">documentId</span><span class="p">,</span><span class="w"> </span><span class="nx">documentId</span><span class="p">,</span><span class="w"> </span><span class="nx">ConstraintType</span><span class="p">.</span><span class="nx">MUST</span><span class="p">);</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="nx">constraints</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nb">Array</span><span class="p">(</span><span class="nx">c1</span><span class="p">);</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="nx">returnFields</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nb">Array</span><span class="p">(</span><span class="s2">&quot;workflowProcessPK.processInstanceId&quot;</span><span class="p">)</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="nx">dataset</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DatasetFactory</span><span class="p">.</span><span class="nx">getDataset</span><span class="p">(</span><span class="s2">&quot;workflowProcess&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">returnFields</span><span class="p">,</span><span class="w"> </span><span class="nx">constraints</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">);</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="nx">numProces</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">dataset</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;workflowProcessPK.processInstanceId&quot;</span><span class="p">);</span>
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nx">numProces</span><span class="p">;</span>
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="p">}</span>
+</code></pre></div>
+<h2 id="sincronizacao-de-datasets">Sincronização de datasets</h2>
+<h3 id="na-criacao-de-datasets-o-fluig-nos-da-4-funcoes">Na criação de datasets o fluig nos da 4 funções</h3>
+<p>Com essas funções é possível realizar a sincronização dos datasets criados.</p>
+<p>defineStructure - Irá definir a estrutura do nosso dataset e irá setar uma chave primária
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">defineStructure</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="w">    </span><span class="nx">addColumn</span><span class="p">(</span><span class="s2">&quot;CODCOLIGADA&quot;</span><span class="p">);</span>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="w">    </span><span class="nx">addColumn</span><span class="p">(</span><span class="s2">&quot;IDMOV&quot;</span><span class="p">);</span>
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="w">    </span><span class="nx">addColumn</span><span class="p">(</span><span class="s2">&quot;HISTORICO&quot;</span><span class="p">);</span>
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="w">    </span><span class="nx">addColumn</span><span class="p">(</span><span class="s2">&quot;PASSAGEIRO&quot;</span><span class="p">);</span>
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="w">    </span><span class="nx">addColumn</span><span class="p">(</span><span class="s2">&quot;CADASTRANTE&quot;</span><span class="p">);</span>
+<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a><span class="w">    </span><span class="nx">addColumn</span><span class="p">(</span><span class="s2">&quot;SOLICITANTE&quot;</span><span class="p">);</span>
+<a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a><span class="w">    </span><span class="nx">addColumn</span><span class="p">(</span><span class="s2">&quot;AUTORIZANTE&quot;</span><span class="p">);</span>
+<a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a><span class="w">    </span><span class="nx">setKey</span><span class="p">([</span><span class="s2">&quot;CODCOLIGADA&quot;</span><span class="p">]);</span>
+<a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a><span class="p">}();</span>
+</code></pre></div>
+onSync - É chamado quando se coloca o fluig para sincronizar o dataset
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">onSync</span><span class="p">(</span><span class="nx">lastSyncDate</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="nx">dataset</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DatasetBuilder</span><span class="p">.</span><span class="nx">newDataset</span><span class="p">();</span>
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="nx">newerDataset</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">createDataset</span><span class="p">();</span>
+<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a><span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="nx">olderDataset</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DatasetFactory</span><span class="p">.</span><span class="nx">getDataset</span><span class="p">(</span><span class="s2">&quot;dsProcessoViagemTMOV&quot;</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">);</span>
+<a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>
+<a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a><span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="nx">ifNull</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kd">function</span><span class="w"> </span><span class="p">(</span><span class="nx">value</span><span class="p">,</span><span class="w"> </span><span class="nx">ifNullValue</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="nx">value</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">null</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="nx">value</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="nx">ifNullValue</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="nx">value</span><span class="p">;</span>
+<a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a>
+<a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">newerDataset</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a><span class="w">        </span><span class="kd">var</span><span class="w"> </span><span class="nx">updated</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[];</span>
+<a id="__codelineno-7-14" name="__codelineno-7-14" href="#__codelineno-7-14"></a>
+<a id="__codelineno-7-15" name="__codelineno-7-15" href="#__codelineno-7-15"></a><span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kd">var</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nx">newerDataset</span><span class="p">.</span><span class="nx">rowsCount</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-7-16" name="__codelineno-7-16" href="#__codelineno-7-16"></a><span class="w">            </span><span class="nx">dataset</span><span class="p">.</span><span class="nx">addOrUpdateRow</span><span class="p">([</span>
+<a id="__codelineno-7-17" name="__codelineno-7-17" href="#__codelineno-7-17"></a><span class="w">                </span><span class="nx">ifNull</span><span class="p">(</span><span class="nx">newerDataset</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;CODCOLIGADA&quot;</span><span class="p">),</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">),</span>
+<a id="__codelineno-7-18" name="__codelineno-7-18" href="#__codelineno-7-18"></a><span class="w">                </span><span class="nx">ifNull</span><span class="p">(</span><span class="nx">newerDataset</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;IDMOV&quot;</span><span class="p">),</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">),</span>
+<a id="__codelineno-7-19" name="__codelineno-7-19" href="#__codelineno-7-19"></a><span class="w">                </span><span class="nx">ifNull</span><span class="p">(</span><span class="nx">newerDataset</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;HISTORICO&quot;</span><span class="p">),</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">),</span>
+<a id="__codelineno-7-20" name="__codelineno-7-20" href="#__codelineno-7-20"></a><span class="w">                </span><span class="nx">ifNull</span><span class="p">(</span><span class="nx">newerDataset</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;PASSAGEIRO&quot;</span><span class="p">),</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">),</span>
+<a id="__codelineno-7-21" name="__codelineno-7-21" href="#__codelineno-7-21"></a><span class="w">                </span><span class="nx">ifNull</span><span class="p">(</span><span class="nx">newerDataset</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;CADASTRANTE&quot;</span><span class="p">),</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">),</span>
+<a id="__codelineno-7-22" name="__codelineno-7-22" href="#__codelineno-7-22"></a><span class="w">                </span><span class="nx">ifNull</span><span class="p">(</span><span class="nx">newerDataset</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;SOLICITANTE&quot;</span><span class="p">),</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">),</span>
+<a id="__codelineno-7-23" name="__codelineno-7-23" href="#__codelineno-7-23"></a><span class="w">                </span><span class="nx">ifNull</span><span class="p">(</span><span class="nx">newerDataset</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;AUTORIZANTE&quot;</span><span class="p">),</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+<a id="__codelineno-7-24" name="__codelineno-7-24" href="#__codelineno-7-24"></a><span class="w">            </span><span class="p">]);</span>
+<a id="__codelineno-7-25" name="__codelineno-7-25" href="#__codelineno-7-25"></a><span class="w">            </span><span class="nx">updated</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">newerDataset</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;CODCOLIGADA&quot;</span><span class="p">));</span>
+<a id="__codelineno-7-26" name="__codelineno-7-26" href="#__codelineno-7-26"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-7-27" name="__codelineno-7-27" href="#__codelineno-7-27"></a>
+<a id="__codelineno-7-28" name="__codelineno-7-28" href="#__codelineno-7-28"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">olderDataset</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-7-29" name="__codelineno-7-29" href="#__codelineno-7-29"></a><span class="w">            </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kd">var</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nx">olderDataset</span><span class="p">.</span><span class="nx">rowsCount</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-7-30" name="__codelineno-7-30" href="#__codelineno-7-30"></a><span class="w">                </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">updated</span><span class="p">.</span><span class="nx">indexOf</span><span class="p">(</span><span class="nx">olderDataset</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;CODCOLIGADA&quot;</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="o">-</span><span class="mf">1</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-7-31" name="__codelineno-7-31" href="#__codelineno-7-31"></a><span class="w">                    </span><span class="nx">dataset</span><span class="p">.</span><span class="nx">deleteRow</span><span class="p">([</span>
+<a id="__codelineno-7-32" name="__codelineno-7-32" href="#__codelineno-7-32"></a><span class="w">                        </span><span class="nx">ifNull</span><span class="p">(</span><span class="nx">olderDataset</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;CODCOLIGADA&quot;</span><span class="p">),</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">),</span>
+<a id="__codelineno-7-33" name="__codelineno-7-33" href="#__codelineno-7-33"></a><span class="w">                        </span><span class="nx">ifNull</span><span class="p">(</span><span class="nx">olderDataset</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;IDMOV&quot;</span><span class="p">),</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">),</span>
+<a id="__codelineno-7-34" name="__codelineno-7-34" href="#__codelineno-7-34"></a><span class="w">                        </span><span class="nx">ifNull</span><span class="p">(</span><span class="nx">olderDataset</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;HISTORICO&quot;</span><span class="p">),</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">),</span>
+<a id="__codelineno-7-35" name="__codelineno-7-35" href="#__codelineno-7-35"></a><span class="w">                        </span><span class="nx">ifNull</span><span class="p">(</span><span class="nx">olderDataset</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;PASSAGEIRO&quot;</span><span class="p">),</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">),</span>
+<a id="__codelineno-7-36" name="__codelineno-7-36" href="#__codelineno-7-36"></a><span class="w">                        </span><span class="nx">ifNull</span><span class="p">(</span><span class="nx">olderDataset</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;CADASTRANTE&quot;</span><span class="p">),</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">),</span>
+<a id="__codelineno-7-37" name="__codelineno-7-37" href="#__codelineno-7-37"></a><span class="w">                        </span><span class="nx">ifNull</span><span class="p">(</span><span class="nx">olderDataset</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;SOLICITANTE&quot;</span><span class="p">),</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">),</span>
+<a id="__codelineno-7-38" name="__codelineno-7-38" href="#__codelineno-7-38"></a><span class="w">                        </span><span class="nx">ifNull</span><span class="p">(</span><span class="nx">olderDataset</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;AUTORIZANTE&quot;</span><span class="p">),</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+<a id="__codelineno-7-39" name="__codelineno-7-39" href="#__codelineno-7-39"></a><span class="w">                    </span><span class="p">]);</span>
+<a id="__codelineno-7-40" name="__codelineno-7-40" href="#__codelineno-7-40"></a><span class="w">                </span><span class="p">}</span>
+<a id="__codelineno-7-41" name="__codelineno-7-41" href="#__codelineno-7-41"></a><span class="w">            </span><span class="p">}</span>
+<a id="__codelineno-7-42" name="__codelineno-7-42" href="#__codelineno-7-42"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-7-43" name="__codelineno-7-43" href="#__codelineno-7-43"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-7-44" name="__codelineno-7-44" href="#__codelineno-7-44"></a>
+<a id="__codelineno-7-45" name="__codelineno-7-45" href="#__codelineno-7-45"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nx">dataset</span><span class="p">;</span>
+<a id="__codelineno-7-46" name="__codelineno-7-46" href="#__codelineno-7-46"></a>
+<a id="__codelineno-7-47" name="__codelineno-7-47" href="#__codelineno-7-47"></a><span class="p">}</span>
+</code></pre></div>
+createDataset - Cria o Dataset para consulta, recebe como parâmetros os campos, as contraints e a ordenação.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">createDataset</span><span class="p">(</span><span class="nx">fields</span><span class="p">,</span><span class="w"> </span><span class="nx">constraints</span><span class="p">,</span><span class="w"> </span><span class="nx">sortFields</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="w">    </span><span class="k">try</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="w">        </span><span class="kd">var</span><span class="w"> </span><span class="nx">result</span><span class="p">;</span>
+<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="w">        </span><span class="kd">var</span><span class="w"> </span><span class="nx">dataset</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DatasetBuilder</span><span class="p">.</span><span class="nx">newDataset</span><span class="p">();</span>
+<a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a><span class="w">        </span><span class="nx">dataset</span><span class="p">.</span><span class="nx">addColumn</span><span class="p">(</span><span class="s2">&quot;CODCOLIGADA&quot;</span><span class="p">);</span>
+<a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a><span class="w">        </span><span class="nx">dataset</span><span class="p">.</span><span class="nx">addColumn</span><span class="p">(</span><span class="s2">&quot;IDMOV&quot;</span><span class="p">);</span>
+<a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a><span class="w">        </span><span class="nx">dataset</span><span class="p">.</span><span class="nx">addColumn</span><span class="p">(</span><span class="s2">&quot;HISTORICO&quot;</span><span class="p">);</span>
+<a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a><span class="w">        </span><span class="nx">dataset</span><span class="p">.</span><span class="nx">addColumn</span><span class="p">(</span><span class="s2">&quot;PASSAGEIRO&quot;</span><span class="p">);</span>
+<a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a><span class="w">        </span><span class="nx">dataset</span><span class="p">.</span><span class="nx">addColumn</span><span class="p">(</span><span class="s2">&quot;CADASTRANTE&quot;</span><span class="p">);</span>
+<a id="__codelineno-8-10" name="__codelineno-8-10" href="#__codelineno-8-10"></a><span class="w">        </span><span class="nx">dataset</span><span class="p">.</span><span class="nx">addColumn</span><span class="p">(</span><span class="s2">&quot;SOLICITANTE&quot;</span><span class="p">);</span>
+<a id="__codelineno-8-11" name="__codelineno-8-11" href="#__codelineno-8-11"></a><span class="w">        </span><span class="nx">dataset</span><span class="p">.</span><span class="nx">addColumn</span><span class="p">(</span><span class="s2">&quot;AUTORIZANTE&quot;</span><span class="p">);</span>
+<a id="__codelineno-8-12" name="__codelineno-8-12" href="#__codelineno-8-12"></a>
+<a id="__codelineno-8-13" name="__codelineno-8-13" href="#__codelineno-8-13"></a><span class="w">        </span><span class="kd">var</span><span class="w"> </span><span class="nx">IDMOV</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">987788</span><span class="p">;</span>
+<a id="__codelineno-8-14" name="__codelineno-8-14" href="#__codelineno-8-14"></a>
+<a id="__codelineno-8-15" name="__codelineno-8-15" href="#__codelineno-8-15"></a><span class="w">        </span><span class="kd">var</span><span class="w"> </span><span class="nx">endpoint</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;/api/framework/v1/consultaSQLServer/RealizaConsulta/WSDiariaTMOV/21/T?parameters=IDMOV=&#39;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">IDMOV</span><span class="p">;</span>
+<a id="__codelineno-8-16" name="__codelineno-8-16" href="#__codelineno-8-16"></a><span class="w">        </span><span class="kd">var</span><span class="w"> </span><span class="nx">clientService</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">fluigAPI</span><span class="p">.</span><span class="nx">getAuthorizeClientService</span><span class="p">();</span>
+<a id="__codelineno-8-17" name="__codelineno-8-17" href="#__codelineno-8-17"></a><span class="w">        </span><span class="kd">var</span><span class="w"> </span><span class="nx">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-8-18" name="__codelineno-8-18" href="#__codelineno-8-18"></a><span class="w">            </span><span class="nx">companyId</span><span class="o">:</span><span class="w"> </span><span class="mf">1</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s1">&#39;&#39;</span><span class="p">,</span>
+<a id="__codelineno-8-19" name="__codelineno-8-19" href="#__codelineno-8-19"></a><span class="w">            </span><span class="nx">serviceCode</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;RM_WSDATASERVER_REST&#39;</span><span class="p">,</span>
+<a id="__codelineno-8-20" name="__codelineno-8-20" href="#__codelineno-8-20"></a><span class="w">            </span><span class="nx">endpoint</span><span class="o">:</span><span class="w"> </span><span class="nx">endpoint</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s1">&#39;&#39;</span><span class="p">,</span>
+<a id="__codelineno-8-21" name="__codelineno-8-21" href="#__codelineno-8-21"></a><span class="w">            </span><span class="nx">method</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;get&#39;</span><span class="p">,</span>
+<a id="__codelineno-8-22" name="__codelineno-8-22" href="#__codelineno-8-22"></a><span class="w">            </span><span class="nx">timeoutService</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;100&#39;</span><span class="p">,</span>
+<a id="__codelineno-8-23" name="__codelineno-8-23" href="#__codelineno-8-23"></a><span class="w">            </span><span class="nx">options</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-8-24" name="__codelineno-8-24" href="#__codelineno-8-24"></a><span class="w">                </span><span class="nx">encoding</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;UTF-8&#39;</span><span class="p">,</span>
+<a id="__codelineno-8-25" name="__codelineno-8-25" href="#__codelineno-8-25"></a><span class="w">                </span><span class="nx">mediaType</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;application/json&#39;</span>
+<a id="__codelineno-8-26" name="__codelineno-8-26" href="#__codelineno-8-26"></a><span class="w">            </span><span class="p">},</span>
+<a id="__codelineno-8-27" name="__codelineno-8-27" href="#__codelineno-8-27"></a><span class="w">            </span><span class="nx">headers</span><span class="o">:</span><span class="w"> </span><span class="p">{},</span>
+<a id="__codelineno-8-28" name="__codelineno-8-28" href="#__codelineno-8-28"></a><span class="w">            </span><span class="nx">params</span><span class="o">:</span><span class="w"> </span><span class="p">{}</span>
+<a id="__codelineno-8-29" name="__codelineno-8-29" href="#__codelineno-8-29"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-8-30" name="__codelineno-8-30" href="#__codelineno-8-30"></a>
+<a id="__codelineno-8-31" name="__codelineno-8-31" href="#__codelineno-8-31"></a><span class="w">        </span><span class="k">try</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-8-32" name="__codelineno-8-32" href="#__codelineno-8-32"></a><span class="w">            </span><span class="nx">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">clientService</span><span class="p">.</span><span class="nx">invoke</span><span class="p">(</span><span class="nb">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">data</span><span class="p">));</span>
+<a id="__codelineno-8-33" name="__codelineno-8-33" href="#__codelineno-8-33"></a><span class="w">        </span><span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="nx">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-8-34" name="__codelineno-8-34" href="#__codelineno-8-34"></a><span class="w">            </span><span class="k">throw</span><span class="w"> </span><span class="s2">&quot;dsProcessoViagemTMOV =&gt; Não se conectou ao endpoint REST do RM: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">e</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">;</span>
+<a id="__codelineno-8-35" name="__codelineno-8-35" href="#__codelineno-8-35"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-8-36" name="__codelineno-8-36" href="#__codelineno-8-36"></a>
+<a id="__codelineno-8-37" name="__codelineno-8-37" href="#__codelineno-8-37"></a><span class="w">        </span><span class="nx">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">JSON</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">result</span><span class="p">.</span><span class="nx">getResult</span><span class="p">())</span>
+<a id="__codelineno-8-38" name="__codelineno-8-38" href="#__codelineno-8-38"></a>
+<a id="__codelineno-8-39" name="__codelineno-8-39" href="#__codelineno-8-39"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">result</span><span class="p">.</span><span class="nx">length</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mf">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-8-40" name="__codelineno-8-40" href="#__codelineno-8-40"></a><span class="w">            </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kd">var</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nx">result</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-8-41" name="__codelineno-8-41" href="#__codelineno-8-41"></a><span class="w">                </span><span class="kd">var</span><span class="w"> </span><span class="nx">item</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">result</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span>
+<a id="__codelineno-8-42" name="__codelineno-8-42" href="#__codelineno-8-42"></a><span class="w">                </span><span class="nx">dataset</span><span class="p">.</span><span class="nx">addRow</span><span class="p">(</span><span class="ow">new</span><span class="w"> </span><span class="nb">Array</span><span class="p">(</span>
+<a id="__codelineno-8-43" name="__codelineno-8-43" href="#__codelineno-8-43"></a><span class="w">                    </span><span class="nx">item</span><span class="p">.</span><span class="nx">CODCOLIGADA</span><span class="p">.</span><span class="nx">toString</span><span class="p">(),</span>
+<a id="__codelineno-8-44" name="__codelineno-8-44" href="#__codelineno-8-44"></a><span class="w">                    </span><span class="nx">item</span><span class="p">.</span><span class="nx">IDMOV</span><span class="p">.</span><span class="nx">toString</span><span class="p">(),</span>
+<a id="__codelineno-8-45" name="__codelineno-8-45" href="#__codelineno-8-45"></a><span class="w">                    </span><span class="nx">item</span><span class="p">.</span><span class="nx">HISTORICO</span><span class="p">.</span><span class="nx">toString</span><span class="p">(),</span>
+<a id="__codelineno-8-46" name="__codelineno-8-46" href="#__codelineno-8-46"></a><span class="w">                    </span><span class="nx">item</span><span class="p">.</span><span class="nx">PASSAGEIRO</span><span class="p">.</span><span class="nx">toString</span><span class="p">(),</span>
+<a id="__codelineno-8-47" name="__codelineno-8-47" href="#__codelineno-8-47"></a><span class="w">                    </span><span class="nx">item</span><span class="p">.</span><span class="nx">CADASTRANTE</span><span class="p">.</span><span class="nx">toString</span><span class="p">(),</span>
+<a id="__codelineno-8-48" name="__codelineno-8-48" href="#__codelineno-8-48"></a><span class="w">                    </span><span class="nx">item</span><span class="p">.</span><span class="nx">SOLICITANTE</span><span class="p">.</span><span class="nx">toString</span><span class="p">(),</span>
+<a id="__codelineno-8-49" name="__codelineno-8-49" href="#__codelineno-8-49"></a><span class="w">                    </span><span class="nx">item</span><span class="p">.</span><span class="nx">AUTORIZANTE</span><span class="p">.</span><span class="nx">toString</span><span class="p">()</span>
+<a id="__codelineno-8-50" name="__codelineno-8-50" href="#__codelineno-8-50"></a><span class="w">                </span><span class="p">));</span>
+<a id="__codelineno-8-51" name="__codelineno-8-51" href="#__codelineno-8-51"></a><span class="w">            </span><span class="p">}</span>
+<a id="__codelineno-8-52" name="__codelineno-8-52" href="#__codelineno-8-52"></a><span class="w">        </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-8-53" name="__codelineno-8-53" href="#__codelineno-8-53"></a><span class="w">            </span><span class="k">throw</span><span class="w"> </span><span class="s2">&quot;dsProcessoViagemTMOV =======&gt; Não existem dados&quot;</span>
+<a id="__codelineno-8-54" name="__codelineno-8-54" href="#__codelineno-8-54"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-8-55" name="__codelineno-8-55" href="#__codelineno-8-55"></a>
+<a id="__codelineno-8-56" name="__codelineno-8-56" href="#__codelineno-8-56"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="nx">dataset</span>
+<a id="__codelineno-8-57" name="__codelineno-8-57" href="#__codelineno-8-57"></a><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-8-58" name="__codelineno-8-58" href="#__codelineno-8-58"></a><span class="w">        </span><span class="k">throw</span><span class="w"> </span><span class="s2">&quot;dsProcessoViagemTMOV ======&gt; Ocorreu um erro ao iniciar a criação do dataset: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">e</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">;</span>
+<a id="__codelineno-8-59" name="__codelineno-8-59" href="#__codelineno-8-59"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-8-60" name="__codelineno-8-60" href="#__codelineno-8-60"></a><span class="p">}</span>
+</code></pre></div>
+onMobileSync - Essa função é específica para o uso de datasets em aplicativos móveis. Ela permite que você sincronize dados entre o aplicativo móvel e o servidor do Fluig. 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">onMobileSync</span><span class="p">(</span><span class="nx">user</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="p">}</span>
+</code></pre></div></p>
+<p>var dsName = "dsConsultaFuncionarioJornalizado";
+var objColumn = [
+    { NAME: "EMAIL", TYPE: "", KEY: true },
+    { NAME: "NOME", TYPE: "", KEY: false },
+    { NAME: "CODUSUARIO", TYPE: "", KEY: false },
+    { NAME: "CODSITUACAO", TYPE: "", KEY: false },
+    { NAME: "CODVEN", TYPE: "", KEY: false },
+];</p>
+<p>function defineStructure() {
+    let key = [];
+    objColumn.forEach(function (row) {
+        let type = undefined;
+        if (row.TYPE == "NUMBER") {
+            type = DatasetFieldType.NUMBER;
+        }
+        if (row.KEY) {
+            key.push(row.NAME);
+        }
+        addColumn(row.NAME, type);</p>
+<div class="highlight"><pre><span></span><code>});
+
+if (key.length &gt; 0) {
+    setKey(key);
+    addIndex(key);
+}
+</code></pre></div>
+<p>}</p>
+<h1 id="datasets-jornalizados">Datasets jornalizados</h1>
+<h2 id="sincronizacao-de-dataset-jornalizado">Sincronização de dataset jornalizado</h2>
+<p>O código faz uma sincronização com um dataset existente, atualizando os registros que existirem no dataset e adicionando os novos registros.<br />
+Caso não haja nenhum registro no dataset, o dataset jornalizado ficará como estava e não vai sincronizar.
+(Evita problema em que na sincronização com o RM um dataset ficava vazio, com um jornalizado ele mantém os dados)
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">onSync</span><span class="p">(</span><span class="nx">lastSyncDate</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">dataset</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DatasetBuilder</span><span class="p">.</span><span class="nx">newDataset</span><span class="p">();</span>
+<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">newerDataset</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">createDataset</span><span class="p">();</span>
+<a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">olderDataset</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DatasetFactory</span><span class="p">.</span><span class="nx">getDataset</span><span class="p">(</span><span class="s1">&#39;dsConsultaFuncionarioJornalizado&#39;</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">);</span>
+<a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a>
+<a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a><span class="w">    </span><span class="c1">// Condições</span>
+<a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a><span class="w">    </span><span class="c1">// 1. Insert (addRow): Existe no newerDataset e não existe no olderDataset</span>
+<a id="__codelineno-10-8" name="__codelineno-10-8" href="#__codelineno-10-8"></a><span class="w">    </span><span class="c1">// 2. Update (updateRow): Existe no newerDataset e existe no olderDataset</span>
+<a id="__codelineno-10-9" name="__codelineno-10-9" href="#__codelineno-10-9"></a><span class="w">    </span><span class="c1">// 3. Delete (deleteRow): Existe no olderDataset e não existe no newerDataset</span>
+<a id="__codelineno-10-10" name="__codelineno-10-10" href="#__codelineno-10-10"></a>
+<a id="__codelineno-10-11" name="__codelineno-10-11" href="#__codelineno-10-11"></a><span class="w">    </span><span class="k">try</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-12" name="__codelineno-10-12" href="#__codelineno-10-12"></a><span class="w">        </span><span class="kd">let</span><span class="w"> </span><span class="nx">startTime</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">java</span><span class="p">.</span><span class="nx">lang</span><span class="p">.</span><span class="nx">System</span><span class="p">.</span><span class="nx">nanoTime</span><span class="p">();</span>
+<a id="__codelineno-10-13" name="__codelineno-10-13" href="#__codelineno-10-13"></a>
+<a id="__codelineno-10-14" name="__codelineno-10-14" href="#__codelineno-10-14"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">olderDataset</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">null</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="nx">olderDataset</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">undefined</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-15" name="__codelineno-10-15" href="#__codelineno-10-15"></a><span class="w">            </span><span class="k">if</span><span class="p">(</span><span class="nx">olderDataset</span><span class="p">.</span><span class="nx">rowsCount</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mf">0</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nx">newerDataset</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">undefined</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nx">newerDataset</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">null</span><span class="p">){</span>
+<a id="__codelineno-10-16" name="__codelineno-10-16" href="#__codelineno-10-16"></a><span class="w">                </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kd">let</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nx">newerDataset</span><span class="p">.</span><span class="nx">rowsCount</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-17" name="__codelineno-10-17" href="#__codelineno-10-17"></a><span class="w">                    </span><span class="kd">let</span><span class="w"> </span><span class="nx">valuesArray</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[];</span>
+<a id="__codelineno-10-18" name="__codelineno-10-18" href="#__codelineno-10-18"></a><span class="w">                    </span><span class="nx">objColumn</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span><span class="w"> </span><span class="p">(</span><span class="nx">column</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-19" name="__codelineno-10-19" href="#__codelineno-10-19"></a><span class="w">                        </span><span class="nx">valuesArray</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">newerDataset</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="nx">column</span><span class="p">.</span><span class="nx">NAME</span><span class="p">));</span>
+<a id="__codelineno-10-20" name="__codelineno-10-20" href="#__codelineno-10-20"></a><span class="w">                    </span><span class="p">});</span>
+<a id="__codelineno-10-21" name="__codelineno-10-21" href="#__codelineno-10-21"></a><span class="w">                    </span><span class="nx">dataset</span><span class="p">.</span><span class="nx">addRow</span><span class="p">(</span><span class="nx">valuesArray</span><span class="p">);</span>
+<a id="__codelineno-10-22" name="__codelineno-10-22" href="#__codelineno-10-22"></a><span class="w">                </span><span class="p">}</span>
+<a id="__codelineno-10-23" name="__codelineno-10-23" href="#__codelineno-10-23"></a><span class="w">                </span><span class="k">return</span><span class="w"> </span><span class="nx">dataset</span><span class="p">;</span>
+<a id="__codelineno-10-24" name="__codelineno-10-24" href="#__codelineno-10-24"></a><span class="w">            </span><span class="p">}</span>
+<a id="__codelineno-10-25" name="__codelineno-10-25" href="#__codelineno-10-25"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-10-26" name="__codelineno-10-26" href="#__codelineno-10-26"></a>
+<a id="__codelineno-10-27" name="__codelineno-10-27" href="#__codelineno-10-27"></a><span class="w">        </span><span class="c1">//VERICA SE 0 DATASET SINCRONIZADO ESTÁ VAZIO</span>
+<a id="__codelineno-10-28" name="__codelineno-10-28" href="#__codelineno-10-28"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">newerDataset</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">undefined</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nx">newerDataset</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-29" name="__codelineno-10-29" href="#__codelineno-10-29"></a><span class="w">            </span><span class="kd">let</span><span class="w"> </span><span class="nx">keys</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span>
+<a id="__codelineno-10-30" name="__codelineno-10-30" href="#__codelineno-10-30"></a><span class="w">            </span><span class="kd">let</span><span class="w"> </span><span class="nx">adicionados</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span>
+<a id="__codelineno-10-31" name="__codelineno-10-31" href="#__codelineno-10-31"></a><span class="w">            </span><span class="kd">let</span><span class="w"> </span><span class="nx">deletados</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span>
+<a id="__codelineno-10-32" name="__codelineno-10-32" href="#__codelineno-10-32"></a><span class="w">            </span><span class="kd">let</span><span class="w"> </span><span class="nx">atualizados</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span>
+<a id="__codelineno-10-33" name="__codelineno-10-33" href="#__codelineno-10-33"></a>
+<a id="__codelineno-10-34" name="__codelineno-10-34" href="#__codelineno-10-34"></a><span class="w">            </span><span class="kd">let</span><span class="w"> </span><span class="nx">oldDataMap</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">java</span><span class="p">.</span><span class="nx">util</span><span class="p">.</span><span class="nx">HashMap</span><span class="p">();</span>
+<a id="__codelineno-10-35" name="__codelineno-10-35" href="#__codelineno-10-35"></a>
+<a id="__codelineno-10-36" name="__codelineno-10-36" href="#__codelineno-10-36"></a><span class="w">            </span><span class="c1">//MONTA UM HASHMAP COM OS DADOS DO DATASET ANTIGO</span>
+<a id="__codelineno-10-37" name="__codelineno-10-37" href="#__codelineno-10-37"></a><span class="w">            </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kd">let</span><span class="w"> </span><span class="nx">j</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span><span class="p">;</span><span class="w"> </span><span class="nx">j</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nx">olderDataset</span><span class="p">.</span><span class="nx">rowsCount</span><span class="p">;</span><span class="w"> </span><span class="nx">j</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-38" name="__codelineno-10-38" href="#__codelineno-10-38"></a><span class="w">                </span><span class="kd">let</span><span class="w"> </span><span class="nx">key</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">;</span>
+<a id="__codelineno-10-39" name="__codelineno-10-39" href="#__codelineno-10-39"></a><span class="w">                </span><span class="kd">let</span><span class="w"> </span><span class="nx">rowObject</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{};</span>
+<a id="__codelineno-10-40" name="__codelineno-10-40" href="#__codelineno-10-40"></a>
+<a id="__codelineno-10-41" name="__codelineno-10-41" href="#__codelineno-10-41"></a><span class="w">                </span><span class="nx">objColumn</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span><span class="w"> </span><span class="p">(</span><span class="nx">column</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-42" name="__codelineno-10-42" href="#__codelineno-10-42"></a><span class="w">                    </span><span class="kd">let</span><span class="w"> </span><span class="nx">columnName</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">column</span><span class="p">.</span><span class="nx">NAME</span><span class="p">;</span>
+<a id="__codelineno-10-43" name="__codelineno-10-43" href="#__codelineno-10-43"></a><span class="w">                    </span><span class="nx">rowObject</span><span class="p">[</span><span class="nx">columnName</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">olderDataset</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="nx">j</span><span class="p">,</span><span class="w"> </span><span class="nx">columnName</span><span class="p">);</span>
+<a id="__codelineno-10-44" name="__codelineno-10-44" href="#__codelineno-10-44"></a><span class="w">                    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">column</span><span class="p">.</span><span class="nx">KEY</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-45" name="__codelineno-10-45" href="#__codelineno-10-45"></a><span class="w">                        </span><span class="nx">key</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="nx">olderDataset</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="nx">j</span><span class="p">,</span><span class="w"> </span><span class="nx">columnName</span><span class="p">);</span>
+<a id="__codelineno-10-46" name="__codelineno-10-46" href="#__codelineno-10-46"></a><span class="w">                    </span><span class="p">}</span>
+<a id="__codelineno-10-47" name="__codelineno-10-47" href="#__codelineno-10-47"></a><span class="w">                </span><span class="p">});</span>
+<a id="__codelineno-10-48" name="__codelineno-10-48" href="#__codelineno-10-48"></a>
+<a id="__codelineno-10-49" name="__codelineno-10-49" href="#__codelineno-10-49"></a><span class="w">                </span><span class="nx">oldDataMap</span><span class="p">.</span><span class="nx">put</span><span class="p">(</span><span class="nx">key</span><span class="p">,</span><span class="w"> </span><span class="nx">rowObject</span><span class="p">);</span>
+<a id="__codelineno-10-50" name="__codelineno-10-50" href="#__codelineno-10-50"></a><span class="w">            </span><span class="p">}</span>
+<a id="__codelineno-10-51" name="__codelineno-10-51" href="#__codelineno-10-51"></a>
+<a id="__codelineno-10-52" name="__codelineno-10-52" href="#__codelineno-10-52"></a><span class="w">            </span><span class="nx">log</span><span class="p">.</span><span class="nx">dir</span><span class="p">(</span><span class="s2">&quot;Sincronizando dataset jornalizado: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">dsName</span><span class="p">)</span>
+<a id="__codelineno-10-53" name="__codelineno-10-53" href="#__codelineno-10-53"></a><span class="w">            </span><span class="nx">log</span><span class="p">.</span><span class="nx">dir</span><span class="p">(</span><span class="s2">&quot;Quantidade de linhas do novo dataset: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">newerDataset</span><span class="p">.</span><span class="nx">rowsCount</span><span class="p">)</span>
+<a id="__codelineno-10-54" name="__codelineno-10-54" href="#__codelineno-10-54"></a><span class="w">            </span><span class="nx">log</span><span class="p">.</span><span class="nx">dir</span><span class="p">(</span><span class="s2">&quot;Quantidade de linhas do antigo dataset: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">olderDataset</span><span class="p">.</span><span class="nx">rowsCount</span><span class="p">)</span>
+<a id="__codelineno-10-55" name="__codelineno-10-55" href="#__codelineno-10-55"></a>
+<a id="__codelineno-10-56" name="__codelineno-10-56" href="#__codelineno-10-56"></a><span class="w">            </span><span class="c1">//PERCORRE O NOVO DATASET</span>
+<a id="__codelineno-10-57" name="__codelineno-10-57" href="#__codelineno-10-57"></a><span class="w">            </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kd">let</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nx">newerDataset</span><span class="p">.</span><span class="nx">rowsCount</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-58" name="__codelineno-10-58" href="#__codelineno-10-58"></a><span class="w">                </span><span class="kd">let</span><span class="w"> </span><span class="nx">newerKey</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">;</span>
+<a id="__codelineno-10-59" name="__codelineno-10-59" href="#__codelineno-10-59"></a>
+<a id="__codelineno-10-60" name="__codelineno-10-60" href="#__codelineno-10-60"></a><span class="w">                </span><span class="c1">//MONTA A CHAVE DE COMPARAÇÃO USANDO A MESMA LOGICA QUE FOI UTILIZADA NO HASHMAP</span>
+<a id="__codelineno-10-61" name="__codelineno-10-61" href="#__codelineno-10-61"></a><span class="w">                </span><span class="nx">objColumn</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span><span class="w"> </span><span class="p">(</span><span class="nx">column</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-62" name="__codelineno-10-62" href="#__codelineno-10-62"></a><span class="w">                    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">column</span><span class="p">.</span><span class="nx">KEY</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-63" name="__codelineno-10-63" href="#__codelineno-10-63"></a><span class="w">                        </span><span class="nx">newerKey</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="nx">newerDataset</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="nx">column</span><span class="p">.</span><span class="nx">NAME</span><span class="p">);</span>
+<a id="__codelineno-10-64" name="__codelineno-10-64" href="#__codelineno-10-64"></a><span class="w">                    </span><span class="p">}</span>
+<a id="__codelineno-10-65" name="__codelineno-10-65" href="#__codelineno-10-65"></a><span class="w">                </span><span class="p">});</span>
+<a id="__codelineno-10-66" name="__codelineno-10-66" href="#__codelineno-10-66"></a>
+<a id="__codelineno-10-67" name="__codelineno-10-67" href="#__codelineno-10-67"></a><span class="w">                </span><span class="c1">// VERIFICA SE A CHAVE EXISTE NO HASHMAP</span>
+<a id="__codelineno-10-68" name="__codelineno-10-68" href="#__codelineno-10-68"></a><span class="w">                </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">oldDataMap</span><span class="p">.</span><span class="nx">containsKey</span><span class="p">(</span><span class="nx">newerKey</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-69" name="__codelineno-10-69" href="#__codelineno-10-69"></a><span class="w">                    </span><span class="nx">keys</span><span class="o">++</span>
+<a id="__codelineno-10-70" name="__codelineno-10-70" href="#__codelineno-10-70"></a><span class="w">                    </span><span class="kd">let</span><span class="w"> </span><span class="nx">oldRow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">oldDataMap</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="nx">newerKey</span><span class="p">);</span>
+<a id="__codelineno-10-71" name="__codelineno-10-71" href="#__codelineno-10-71"></a><span class="w">                    </span><span class="kd">let</span><span class="w"> </span><span class="nx">shouldUpdate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
+<a id="__codelineno-10-72" name="__codelineno-10-72" href="#__codelineno-10-72"></a><span class="w">                    </span><span class="kd">let</span><span class="w"> </span><span class="nx">valuesArray</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[];</span>
+<a id="__codelineno-10-73" name="__codelineno-10-73" href="#__codelineno-10-73"></a>
+<a id="__codelineno-10-74" name="__codelineno-10-74" href="#__codelineno-10-74"></a><span class="w">                    </span><span class="c1">// VERIFICA SE O REGISTRO FOI ALTERADO</span>
+<a id="__codelineno-10-75" name="__codelineno-10-75" href="#__codelineno-10-75"></a><span class="w">                    </span><span class="nx">objColumn</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span><span class="w"> </span><span class="p">(</span><span class="nx">column</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-76" name="__codelineno-10-76" href="#__codelineno-10-76"></a><span class="w">                        </span><span class="kd">let</span><span class="w"> </span><span class="nx">columnName</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">column</span><span class="p">.</span><span class="nx">NAME</span><span class="p">;</span>
+<a id="__codelineno-10-77" name="__codelineno-10-77" href="#__codelineno-10-77"></a><span class="w">                        </span><span class="kd">let</span><span class="w"> </span><span class="nx">newValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">newerDataset</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="nx">columnName</span><span class="p">);</span>
+<a id="__codelineno-10-78" name="__codelineno-10-78" href="#__codelineno-10-78"></a><span class="w">                        </span><span class="nx">valuesArray</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">newValue</span><span class="p">);</span>
+<a id="__codelineno-10-79" name="__codelineno-10-79" href="#__codelineno-10-79"></a><span class="w">                        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">newValue</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="nx">oldRow</span><span class="p">[</span><span class="nx">columnName</span><span class="p">])</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-80" name="__codelineno-10-80" href="#__codelineno-10-80"></a><span class="w">                            </span><span class="nx">shouldUpdate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span><span class="p">;</span>
+<a id="__codelineno-10-81" name="__codelineno-10-81" href="#__codelineno-10-81"></a><span class="w">                        </span><span class="p">}</span>
+<a id="__codelineno-10-82" name="__codelineno-10-82" href="#__codelineno-10-82"></a><span class="w">                    </span><span class="p">});</span>
+<a id="__codelineno-10-83" name="__codelineno-10-83" href="#__codelineno-10-83"></a>
+<a id="__codelineno-10-84" name="__codelineno-10-84" href="#__codelineno-10-84"></a><span class="w">                    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">shouldUpdate</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-85" name="__codelineno-10-85" href="#__codelineno-10-85"></a><span class="w">                        </span><span class="nx">atualizados</span><span class="o">++</span><span class="p">;</span>
+<a id="__codelineno-10-86" name="__codelineno-10-86" href="#__codelineno-10-86"></a><span class="w">                        </span><span class="nx">dataset</span><span class="p">.</span><span class="nx">updateRow</span><span class="p">(</span><span class="nx">valuesArray</span><span class="p">);</span>
+<a id="__codelineno-10-87" name="__codelineno-10-87" href="#__codelineno-10-87"></a><span class="w">                    </span><span class="p">}</span>
+<a id="__codelineno-10-88" name="__codelineno-10-88" href="#__codelineno-10-88"></a>
+<a id="__codelineno-10-89" name="__codelineno-10-89" href="#__codelineno-10-89"></a><span class="w">                    </span><span class="c1">// COMO O REGISTRO EXISTE NOS DOIS DATASETS, DEVE SER REMOVIDO DO HASHMAP PARA QUE NO FINAL SOBREM APENAS OS REGISTROS QUE DEVEM SER DELETADOS</span>
+<a id="__codelineno-10-90" name="__codelineno-10-90" href="#__codelineno-10-90"></a><span class="w">                    </span><span class="nx">oldDataMap</span><span class="p">.</span><span class="nx">remove</span><span class="p">(</span><span class="nx">newerKey</span><span class="p">);</span>
+<a id="__codelineno-10-91" name="__codelineno-10-91" href="#__codelineno-10-91"></a>
+<a id="__codelineno-10-92" name="__codelineno-10-92" href="#__codelineno-10-92"></a><span class="w">                </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-93" name="__codelineno-10-93" href="#__codelineno-10-93"></a><span class="w">                    </span><span class="c1">// SE ELE EXISTIR NO NOVO DATASET E NÃO EXISTIR NO ANTIGO, ADICIONA</span>
+<a id="__codelineno-10-94" name="__codelineno-10-94" href="#__codelineno-10-94"></a><span class="w">                    </span><span class="nx">adicionados</span><span class="o">++</span><span class="p">;</span>
+<a id="__codelineno-10-95" name="__codelineno-10-95" href="#__codelineno-10-95"></a><span class="w">                    </span><span class="kd">let</span><span class="w"> </span><span class="nx">valuesArray</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[];</span>
+<a id="__codelineno-10-96" name="__codelineno-10-96" href="#__codelineno-10-96"></a><span class="w">                    </span><span class="nx">objColumn</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span><span class="w"> </span><span class="p">(</span><span class="nx">column</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-97" name="__codelineno-10-97" href="#__codelineno-10-97"></a><span class="w">                        </span><span class="nx">valuesArray</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">newerDataset</span><span class="p">.</span><span class="nx">getValue</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="nx">column</span><span class="p">.</span><span class="nx">NAME</span><span class="p">));</span>
+<a id="__codelineno-10-98" name="__codelineno-10-98" href="#__codelineno-10-98"></a><span class="w">                    </span><span class="p">});</span>
+<a id="__codelineno-10-99" name="__codelineno-10-99" href="#__codelineno-10-99"></a>
+<a id="__codelineno-10-100" name="__codelineno-10-100" href="#__codelineno-10-100"></a><span class="w">                    </span><span class="nx">dataset</span><span class="p">.</span><span class="nx">addRow</span><span class="p">(</span><span class="nx">valuesArray</span><span class="p">);</span>
+<a id="__codelineno-10-101" name="__codelineno-10-101" href="#__codelineno-10-101"></a><span class="w">                </span><span class="p">}</span>
+<a id="__codelineno-10-102" name="__codelineno-10-102" href="#__codelineno-10-102"></a><span class="w">            </span><span class="p">}</span>
+<a id="__codelineno-10-103" name="__codelineno-10-103" href="#__codelineno-10-103"></a>
+<a id="__codelineno-10-104" name="__codelineno-10-104" href="#__codelineno-10-104"></a><span class="w">            </span><span class="c1">// REGISTROS QUE SOBRARAM NO HASHMAP, OU SEJA, REGISTROS QUE EXISTEM NO ANTIGO MAS NÃO EXISTEM NO NOVO, DEVEM SER DELETADOS</span>
+<a id="__codelineno-10-105" name="__codelineno-10-105" href="#__codelineno-10-105"></a><span class="w">            </span><span class="kd">let</span><span class="w"> </span><span class="nx">iterator</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">oldDataMap</span><span class="p">.</span><span class="nx">keySet</span><span class="p">().</span><span class="nx">iterator</span><span class="p">();</span>
+<a id="__codelineno-10-106" name="__codelineno-10-106" href="#__codelineno-10-106"></a><span class="w">            </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="nx">iterator</span><span class="p">.</span><span class="nx">hasNext</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-107" name="__codelineno-10-107" href="#__codelineno-10-107"></a><span class="w">                </span><span class="kd">let</span><span class="w"> </span><span class="nx">key</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">iterator</span><span class="p">.</span><span class="nx">next</span><span class="p">();</span>
+<a id="__codelineno-10-108" name="__codelineno-10-108" href="#__codelineno-10-108"></a><span class="w">                </span><span class="nx">deletados</span><span class="o">++</span><span class="p">;</span>
+<a id="__codelineno-10-109" name="__codelineno-10-109" href="#__codelineno-10-109"></a><span class="w">                </span><span class="kd">let</span><span class="w"> </span><span class="nx">oldRow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">oldDataMap</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="nx">key</span><span class="p">);</span>
+<a id="__codelineno-10-110" name="__codelineno-10-110" href="#__codelineno-10-110"></a><span class="w">                </span><span class="kd">let</span><span class="w"> </span><span class="nx">valuesArray</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[];</span>
+<a id="__codelineno-10-111" name="__codelineno-10-111" href="#__codelineno-10-111"></a><span class="w">                </span><span class="nx">objColumn</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span><span class="w"> </span><span class="p">(</span><span class="nx">column</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-112" name="__codelineno-10-112" href="#__codelineno-10-112"></a><span class="w">                    </span><span class="nx">valuesArray</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">oldRow</span><span class="p">[</span><span class="nx">column</span><span class="p">.</span><span class="nx">NAME</span><span class="p">]);</span>
+<a id="__codelineno-10-113" name="__codelineno-10-113" href="#__codelineno-10-113"></a><span class="w">                </span><span class="p">});</span>
+<a id="__codelineno-10-114" name="__codelineno-10-114" href="#__codelineno-10-114"></a>
+<a id="__codelineno-10-115" name="__codelineno-10-115" href="#__codelineno-10-115"></a><span class="w">                </span><span class="nx">dataset</span><span class="p">.</span><span class="nx">deleteRow</span><span class="p">(</span><span class="nx">valuesArray</span><span class="p">);</span>
+<a id="__codelineno-10-116" name="__codelineno-10-116" href="#__codelineno-10-116"></a><span class="w">            </span><span class="p">}</span>
+<a id="__codelineno-10-117" name="__codelineno-10-117" href="#__codelineno-10-117"></a>
+<a id="__codelineno-10-118" name="__codelineno-10-118" href="#__codelineno-10-118"></a><span class="w">            </span><span class="nx">log</span><span class="p">.</span><span class="nx">dir</span><span class="p">(</span><span class="s2">&quot;Dados da sincronização do dataset jornalizado: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">dsName</span><span class="p">)</span>
+<a id="__codelineno-10-119" name="__codelineno-10-119" href="#__codelineno-10-119"></a><span class="w">            </span><span class="nx">log</span><span class="p">.</span><span class="nx">dir</span><span class="p">(</span><span class="s2">&quot;Quantidade de keys que deram match: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">keys</span><span class="p">)</span>
+<a id="__codelineno-10-120" name="__codelineno-10-120" href="#__codelineno-10-120"></a><span class="w">            </span><span class="nx">log</span><span class="p">.</span><span class="nx">dir</span><span class="p">(</span><span class="s2">&quot;Quantidade de adicionados: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">adicionados</span><span class="p">)</span>
+<a id="__codelineno-10-121" name="__codelineno-10-121" href="#__codelineno-10-121"></a><span class="w">            </span><span class="nx">log</span><span class="p">.</span><span class="nx">dir</span><span class="p">(</span><span class="s2">&quot;Quantidade de deletados: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">deletados</span><span class="p">)</span>
+<a id="__codelineno-10-122" name="__codelineno-10-122" href="#__codelineno-10-122"></a><span class="w">            </span><span class="nx">log</span><span class="p">.</span><span class="nx">dir</span><span class="p">(</span><span class="s2">&quot;Quantidade de atualizados: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">atualizados</span><span class="p">)</span>
+<a id="__codelineno-10-123" name="__codelineno-10-123" href="#__codelineno-10-123"></a>
+<a id="__codelineno-10-124" name="__codelineno-10-124" href="#__codelineno-10-124"></a><span class="w">            </span><span class="kd">let</span><span class="w"> </span><span class="nx">endTime</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">java</span><span class="p">.</span><span class="nx">lang</span><span class="p">.</span><span class="nx">System</span><span class="p">.</span><span class="nx">nanoTime</span><span class="p">();</span>
+<a id="__codelineno-10-125" name="__codelineno-10-125" href="#__codelineno-10-125"></a><span class="w">            </span><span class="kd">let</span><span class="w"> </span><span class="nx">duration</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="nx">endTime</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nx">startTime</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mf">1000000</span><span class="p">;</span>
+<a id="__codelineno-10-126" name="__codelineno-10-126" href="#__codelineno-10-126"></a><span class="w">            </span><span class="nx">log</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="s2">&quot;Tempo de execução: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">duration</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">&quot; ms&quot;</span><span class="p">);</span>
+<a id="__codelineno-10-127" name="__codelineno-10-127" href="#__codelineno-10-127"></a>
+<a id="__codelineno-10-128" name="__codelineno-10-128" href="#__codelineno-10-128"></a><span class="w">        </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-129" name="__codelineno-10-129" href="#__codelineno-10-129"></a><span class="w">            </span><span class="nx">reportErro</span><span class="p">(</span><span class="s2">&quot;retornoVazio&quot;</span><span class="p">);</span>
+<a id="__codelineno-10-130" name="__codelineno-10-130" href="#__codelineno-10-130"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-10-131" name="__codelineno-10-131" href="#__codelineno-10-131"></a><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="nx">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-132" name="__codelineno-10-132" href="#__codelineno-10-132"></a><span class="w">        </span><span class="nx">reportErro</span><span class="p">(</span><span class="s2">&quot;erroAoSincronizar&quot;</span><span class="p">);</span>
+<a id="__codelineno-10-133" name="__codelineno-10-133" href="#__codelineno-10-133"></a><span class="w">        </span><span class="k">throw</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="ne">Error</span><span class="p">(</span><span class="s1">&#39;Erro ao sincronizar &#39;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">e</span><span class="p">);</span>
+<a id="__codelineno-10-134" name="__codelineno-10-134" href="#__codelineno-10-134"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-10-135" name="__codelineno-10-135" href="#__codelineno-10-135"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nx">dataset</span><span class="p">;</span>
+<a id="__codelineno-10-136" name="__codelineno-10-136" href="#__codelineno-10-136"></a><span class="p">}</span>
+<a id="__codelineno-10-137" name="__codelineno-10-137" href="#__codelineno-10-137"></a>
+<a id="__codelineno-10-138" name="__codelineno-10-138" href="#__codelineno-10-138"></a>
+<a id="__codelineno-10-139" name="__codelineno-10-139" href="#__codelineno-10-139"></a><span class="kd">function</span><span class="w"> </span><span class="nx">createDataset</span><span class="p">(</span><span class="nx">fields</span><span class="p">,</span><span class="w"> </span><span class="nx">constraints</span><span class="p">,</span><span class="w"> </span><span class="nx">sortFields</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-140" name="__codelineno-10-140" href="#__codelineno-10-140"></a>
+<a id="__codelineno-10-141" name="__codelineno-10-141" href="#__codelineno-10-141"></a><span class="w">    </span><span class="k">try</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-142" name="__codelineno-10-142" href="#__codelineno-10-142"></a><span class="w">        </span><span class="kd">const</span><span class="w"> </span><span class="nx">dataset</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DatasetBuilder</span><span class="p">.</span><span class="nx">newDataset</span><span class="p">();</span>
+<a id="__codelineno-10-143" name="__codelineno-10-143" href="#__codelineno-10-143"></a>
+<a id="__codelineno-10-144" name="__codelineno-10-144" href="#__codelineno-10-144"></a><span class="w">        </span><span class="kd">const</span><span class="w"> </span><span class="nx">syncedDs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DatasetFactory</span><span class="p">.</span><span class="nx">getDataset</span><span class="p">(</span><span class="s1">&#39;dsConsultaFuncionario&#39;</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">);</span><span class="w"> </span><span class="c1">// dataset sincronizado ou fonte de dados</span>
+<a id="__codelineno-10-145" name="__codelineno-10-145" href="#__codelineno-10-145"></a>
+<a id="__codelineno-10-146" name="__codelineno-10-146" href="#__codelineno-10-146"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">syncedDs</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-147" name="__codelineno-10-147" href="#__codelineno-10-147"></a><span class="w">            </span><span class="k">throw</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="ne">Error</span><span class="p">(</span><span class="s1">&#39;Erro ao sincronizar&#39;</span><span class="p">);</span>
+<a id="__codelineno-10-148" name="__codelineno-10-148" href="#__codelineno-10-148"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-10-149" name="__codelineno-10-149" href="#__codelineno-10-149"></a>
+<a id="__codelineno-10-150" name="__codelineno-10-150" href="#__codelineno-10-150"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">syncedDs</span><span class="p">.</span><span class="nx">rowsCount</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="mf">1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-151" name="__codelineno-10-151" href="#__codelineno-10-151"></a><span class="w">            </span><span class="k">throw</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="ne">Error</span><span class="p">(</span><span class="s1">&#39;Erro ao sincronizar&#39;</span><span class="p">);</span>
+<a id="__codelineno-10-152" name="__codelineno-10-152" href="#__codelineno-10-152"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-10-153" name="__codelineno-10-153" href="#__codelineno-10-153"></a>
+<a id="__codelineno-10-154" name="__codelineno-10-154" href="#__codelineno-10-154"></a><span class="w">        </span><span class="nx">buildRows</span><span class="p">(</span><span class="nx">dataset</span><span class="p">,</span><span class="w"> </span><span class="nx">syncedDs</span><span class="p">)</span>
+<a id="__codelineno-10-155" name="__codelineno-10-155" href="#__codelineno-10-155"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="nx">dataset</span>
+<a id="__codelineno-10-156" name="__codelineno-10-156" href="#__codelineno-10-156"></a>
+<a id="__codelineno-10-157" name="__codelineno-10-157" href="#__codelineno-10-157"></a><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="nx">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-158" name="__codelineno-10-158" href="#__codelineno-10-158"></a><span class="w">        </span><span class="nx">reportErro</span><span class="p">(</span><span class="s2">&quot;retornoVazio&quot;</span><span class="p">);</span>
+<a id="__codelineno-10-159" name="__codelineno-10-159" href="#__codelineno-10-159"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-10-160" name="__codelineno-10-160" href="#__codelineno-10-160"></a>
+<a id="__codelineno-10-161" name="__codelineno-10-161" href="#__codelineno-10-161"></a><span class="p">}</span>
+<a id="__codelineno-10-162" name="__codelineno-10-162" href="#__codelineno-10-162"></a>
+<a id="__codelineno-10-163" name="__codelineno-10-163" href="#__codelineno-10-163"></a><span class="kd">function</span><span class="w"> </span><span class="nx">buildRows</span><span class="p">(</span><span class="nx">dataset</span><span class="p">,</span><span class="w"> </span><span class="nx">res</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-164" name="__codelineno-10-164" href="#__codelineno-10-164"></a><span class="w">    </span><span class="c1">// Adiciona as colunas</span>
+<a id="__codelineno-10-165" name="__codelineno-10-165" href="#__codelineno-10-165"></a><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kd">var</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nx">res</span><span class="p">.</span><span class="nx">columnsName</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-166" name="__codelineno-10-166" href="#__codelineno-10-166"></a><span class="w">        </span><span class="nx">dataset</span><span class="p">.</span><span class="nx">addColumn</span><span class="p">(</span><span class="nx">res</span><span class="p">.</span><span class="nx">columnsName</span><span class="p">[</span><span class="nx">i</span><span class="p">]);</span>
+<a id="__codelineno-10-167" name="__codelineno-10-167" href="#__codelineno-10-167"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-10-168" name="__codelineno-10-168" href="#__codelineno-10-168"></a>
+<a id="__codelineno-10-169" name="__codelineno-10-169" href="#__codelineno-10-169"></a><span class="w">    </span><span class="c1">// adiciona as rows</span>
+<a id="__codelineno-10-170" name="__codelineno-10-170" href="#__codelineno-10-170"></a><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kd">var</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nx">res</span><span class="p">.</span><span class="nx">values</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-171" name="__codelineno-10-171" href="#__codelineno-10-171"></a><span class="w">        </span><span class="nx">dataset</span><span class="p">.</span><span class="nx">addRow</span><span class="p">(</span><span class="nx">res</span><span class="p">.</span><span class="nx">values</span><span class="p">[</span><span class="nx">i</span><span class="p">]);</span>
+<a id="__codelineno-10-172" name="__codelineno-10-172" href="#__codelineno-10-172"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-10-173" name="__codelineno-10-173" href="#__codelineno-10-173"></a><span class="p">}</span>
+<a id="__codelineno-10-174" name="__codelineno-10-174" href="#__codelineno-10-174"></a>
+<a id="__codelineno-10-175" name="__codelineno-10-175" href="#__codelineno-10-175"></a><span class="kd">function</span><span class="w"> </span><span class="nx">reportErro</span><span class="p">(</span><span class="nx">template</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-10-176" name="__codelineno-10-176" href="#__codelineno-10-176"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">c1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DatasetFactory</span><span class="p">.</span><span class="nx">createConstraint</span><span class="p">(</span><span class="s2">&quot;TEMPLATE&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">template</span><span class="p">,</span><span class="w"> </span><span class="nx">template</span><span class="p">,</span><span class="w"> </span><span class="nx">ConstraintType</span><span class="p">.</span><span class="nx">MUST</span><span class="p">);</span>
+<a id="__codelineno-10-177" name="__codelineno-10-177" href="#__codelineno-10-177"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">c2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DatasetFactory</span><span class="p">.</span><span class="nx">createConstraint</span><span class="p">(</span><span class="s2">&quot;DATASETNAME&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">dsName</span><span class="p">,</span><span class="w"> </span><span class="nx">dsName</span><span class="p">,</span><span class="w"> </span><span class="nx">ConstraintType</span><span class="p">.</span><span class="nx">MUST</span><span class="p">);</span>
+<a id="__codelineno-10-178" name="__codelineno-10-178" href="#__codelineno-10-178"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">constraints</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="nx">c1</span><span class="p">,</span><span class="w"> </span><span class="nx">c2</span><span class="p">];</span>
+<a id="__codelineno-10-179" name="__codelineno-10-179" href="#__codelineno-10-179"></a><span class="w">    </span><span class="nx">DatasetFactory</span><span class="p">.</span><span class="nx">getDataset</span><span class="p">(</span><span class="s2">&quot;dsJornalizadosEnviaEmail&quot;</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> </span><span class="nx">constraints</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">);</span>
+<a id="__codelineno-10-180" name="__codelineno-10-180" href="#__codelineno-10-180"></a><span class="p">}</span>
+</code></pre></div></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+        <script src="../js/checkauth.js"></script>
+      
+        <script src="../js/auth.js"></script>
+      
+    
+  </body>
+</html>
