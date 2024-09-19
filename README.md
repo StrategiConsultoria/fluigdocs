@@ -6,7 +6,7 @@
 Este README tem o objetivo de apresentar o objetivo deste repositório. O repositório foi criado para documentar as principais práticas em páginas e formulário do Fluig,
 determinando também características que os devs precisam saber em processos da plataforma e exigências da ferramenta. Assim, facilitando a resolução de erros que venham a acontecer no cotidiano. Também será possível ver funções que são utilizadas com frequência na ferramenta.
 
-O projeto inserido neste repositório é um modelo pré-existente e é utilizado como base para exibição de dados sobre o mesmo.
+O projeto inserido neste repositório é um modelo pré-existente e é utilizado como base para exibição de dados sobre o mesmo..
 
 <p display="inline-block">
   <img width="48" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" alt="vscode-logo"/>
